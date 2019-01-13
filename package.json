@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest sort datastructure --coverage"
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "testRegex": "\\.test\\.js"
   },
   "keywords": [
     "algo"

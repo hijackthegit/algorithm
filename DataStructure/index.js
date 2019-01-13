@@ -1,0 +1,1 @@
+exports.HashMap = require('./HashMap');

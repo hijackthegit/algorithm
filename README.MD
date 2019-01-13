@@ -10,3 +10,5 @@
 - Quick sort
 
 ##Search
+
+##Maths
