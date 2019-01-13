@@ -1,7 +1,8 @@
-#Algorithm Implemented in Javascript (es6)
-##Datastructure
+# Algorithm Implemented in Javascript (es6) #
 
-##Sort
+## Datastructure ##
+
+## Sort ##
 - Bubble sort
 - Selection sort
 - Insertion sort
@@ -9,6 +10,6 @@
 - Merge sort
 - Quick sort
 
-##Search
+## Search ##
 
-##Maths
+## Maths ##
