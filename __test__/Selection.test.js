@@ -8,6 +8,10 @@ describe('Selection sort', () => {
             desc: [32, 8, 7, 6, 6, 4, 3, 3, 1],
         }
     });
+    it('should return null if input is not an array', () => {
+        const sortResult = SelectionSort('');
+        expect(sortResult).toBe('');
+    });
     it('find the smallest item in an array', () => {
         const sortResult = SelectionSort(this.mock.array, 1);
         expect(sortResult).toEqual(this.mock.asc);

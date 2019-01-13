@@ -16,9 +16,7 @@ class HashMap {
         if (this._collection.hasOwnProperty(key)) {
             this._collection[key] = null;
             delete this._collection[key];
-            return true;
         }
-        return false;
     }
     clear() {
         this._collection = {};
@@ -32,7 +30,6 @@ class HashMap {
     set collection(val) {
         this._collection = val;
     }
-
     size() {
         return Object.keys(this._collection).length;
     }
